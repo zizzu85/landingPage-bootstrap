@@ -1,5 +1,36 @@
 body{
     height: 100vh;
     width: auto;
-    background-color: #FFE66D;
+    background-color: #FDC50D;
+    margin: 0;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(0,0,0, 0.2);
+    height: 15vh;
+    width: 100vw;
+}
+
+#jumbotronTopo{
+    height: 85vh;
+    width: 40vw;
+    color: white;
+    align-self: center;
+}
+
+#imgBanner{
+    height: 100%;
+    width: auto;
+}
+
+#btnContact{
+    background-color: #38E4AE;
+    color: white;
+}
+
+#btnService{
+    background-color: transparent;
+    color: white;
 }

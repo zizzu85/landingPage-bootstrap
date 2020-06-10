@@ -5,11 +5,11 @@ Projeto de divulgação objetiva seja de produtos, serviços ou pessoal.
 Baseado em template:  http://www.freepik.com - Designed by Freepik;
 
 Paleta usada: 
-Midnight Green Eagle Green - #1A535C;
-Medium Turquoise - #4ECDC4;
-Mint Cream - #F7FFF7;
-Bittersweet - #FF6B6B;
-Yellow Crayola - #FFE66D.
+Mikado Yellow - #FDC50D;
+Middle Yellow - #FCEA10;
+Medium Aquamarine - #38E4AE;
+Ming - #3C6E71;
+Jet - #353535.
 
 
 Bibliotecas e tecnologias utilizadas:
