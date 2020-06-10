@@ -20,17 +20,28 @@ body{
     align-self: center;
 }
 
+#imagens{
+    display: flex;
+    height: 50vh;
+    align-items: right;
+    align-self: center;
+}
+
 #imgBanner{
     height: 100%;
     width: auto;
 }
 
-#btnContact{
-    background-color: #38E4AE;
-    color: white;
+#about{
+    display: flex;
+    background-color: white;
+    align-self: center;
+    width: 100vw;
 }
 
-#btnService{
-    background-color: transparent;
-    color: white;
+#jumbotronAbout{
+    height: 85vh;
+    width: 40vw;
+    align-self: center;
+    color: black;
 }
