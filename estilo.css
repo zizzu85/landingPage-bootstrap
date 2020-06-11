@@ -1,8 +1,8 @@
-body{
+html, body{
     height: 100vh;
     width: auto;
     background-color: #FDC50D;
-    margin: 0;
+    margin:0;
 }
 
 #nav{
@@ -15,19 +15,11 @@ body{
 
 #jumbotronTopo{
     height: 85vh;
-    width: 40vw;
     color: white;
-    align-self: center;
 }
+
 
 #imagens{
-    display: flex;
-    height: 50vh;
-    align-items: right;
-    align-self: center;
-}
-
-#imgBanner{
     height: 100%;
     width: auto;
 }
@@ -41,7 +33,11 @@ body{
 
 #jumbotronAbout{
     height: 85vh;
-    width: 40vw;
-    align-self: center;
     color: black;
+}
+
+#service{
+    height: 85vh;
+    color: white;
+    text-align: center;
 }
