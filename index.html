@@ -6,36 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css" type="text/css"/>
 
     <title>Seu Titulo</title>
   </head>
   <body>
     <header id="nav">
-      <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
-        <a><img src="img/logo.png" class="img-fluid" width="230" height="150" alt=""href="#"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navConteudo" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        <div class="collapse navbar-collapse" id="navConteudo">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#"> Home </a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="230" height="150" alt="" loading="lazy"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#about"> About </a>
+              <a class="nav-link text-white" href="#about">about</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#service"> Service </a>
+              <a class="nav-link text-white" href="#service">service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#contato"> Contact </a>
+              <a class="nav-link text-white" href="#shop">shop</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Source" aria-label="Pesquisar">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> Source </button>
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
         </div>
       </nav>
@@ -128,6 +129,7 @@
           </div>
         </div>
       </section>
+
       
       <section id="veterinar">
         <div class="container-fluid">
@@ -147,13 +149,102 @@
           </div>
         </div>        
       </section>
+
+
+      <section id="shop">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-sm">
+              <div class="jumbotron bg-transparent">
+                <h2 class="display-4">Title Here</h2>
+                  <p class="lead">Lorem Ipsum available but the majority have
+                  suffered alteration in some form, by injected
+                  humour randomised words.</p>                  
+              </div>
+            </div>
+          </div>
+          <div class="row align-content-center">
+            <div class="col col-sm">
+              <div class="card bg-transparent" style="max-width: 14em;">
+                <img class="card-img-top" src="img/card004.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h4 class="card-title">$40</h4>
+                  <a class="btn btn-sm text-white" style="background-color:#38E4AE;" href="#" role="button">Buy now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col col-sm">
+              <div class="card bg-transparent" style="max-width: 14em;">
+                <img class="card-img-top" src="img/card005.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h4 class="card-title">$25</h4>
+                  <a class="btn btn-sm text-white" style="background-color:#38E4AE;" href="#" role="button">Buy now</a>
+                </div>
+              </div>
+            </div> 
+            <div class="col col-sm">
+              <div class="card bg-transparent" style="max-width: 14em;">
+                <img class="card-img-top" src="img/card006.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h4 class="card-title">$20</h4>
+                  <a class="btn btn-sm text-white" style="background-color:#38E4AE;" href="#" role="button">Buy now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="squad">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col col-sm">
+              <div class="jumbotron bg-transparent">
+                <h2 class="display-4 text-center">The vetcare team</h2>
+                  <p class="lead text-center">Lorem Ipsum available but the majority have
+                  suffered alteration in some form.</p>                  
+              </div>
+            </div>
+          </div>
+          <div class="row align-content-center">
+            <div class="col col-sm">
+              <div class="card bg-transparent" style="max-width: 14em;">
+                <img class="card-img-top" src="img/card007.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Jennifer Mullen</h5>
+                  <p class="card-text text-center">VETERINARY</p>
+                </div>
+              </div>
+            </div>
+            <div class="col col-sm">
+              <div class="card bg-transparent" style="max-width: 14em;">
+                <img class="card-img-top" src="img/card008.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Sheeren Collins</h5>
+                  <p class="card-text text-center">ADMINISTRATION</p>
+                </div>
+              </div>
+            </div> 
+            <div class="col col-sm">
+              <div class="card bg-transparent" style="max-width: 14em;">
+                <img class="card-img-top" src="img/card009.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title text-center">Jennifer Mullen</h5>
+                  <p class="card-text text-center">VETERINARY</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
     </main>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
 </html>

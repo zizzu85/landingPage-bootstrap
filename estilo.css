@@ -13,7 +13,7 @@ html, body{
     width: 100vw;
 }
 
-#about, #veterinar{
+#about, #veterinar, #squad{
     display: flex;
     height: 100vh;
     width: 100vw;
@@ -22,7 +22,7 @@ html, body{
     color: black;
 }
 
-#topo, #service{
+#topo, #service, #shop{
     display: flex;
     height: auto;
     width: 100vw;
