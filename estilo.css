@@ -5,17 +5,15 @@ html, body{
     margin:0;
 }
 
-#nav{
+#naveg{
     display: flex;
     justify-content: center;
     background-color:rgb(0,0,0, 0.2);
-    height: 15vh;
-    width: 100vw;
 }
 
-#about, #veterinar, #squad{
+#about, #veterinar, #squad, #posts{
     display: flex;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     background-color: white;
     align-items: center;
@@ -29,4 +27,23 @@ html, body{
     color: white;
     align-self: center;
     text-align: center;
+}
+
+#health{
+    background-color: #FDC50D;
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#rodape{
+    display: flex;
+    background-color: #353535;
+    align-items: center;
+    color: white;
+    height: 60vh;
+    width: 100vw;
 }
